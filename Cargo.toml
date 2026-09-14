@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "nft-meta"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "NFT metadata stub — job id as token tag."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/nft-meta"
+
+[[bin]]
+name = "nft-meta"
+path = "src/main.rs"
